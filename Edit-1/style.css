@@ -26,7 +26,26 @@
 }
 
 .home:hover {
-    background-color: rgb(121, 121, 121);
+    color: rgb(121, 121, 121);
+}
+
+.title {
+    background-color: black;
+    background-image: url('img-t1.png');
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-1 {
+    padding: 100px;
+    padding-bottom: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .message {
@@ -34,14 +53,9 @@
     margin: auto;
     max-width: 800px;
     justify-content: center;
-
 }   
 
-.title-1 {
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
-}
+
 
 .g1,.g2,.g3,.g4,.g5,.g6 {
     margin-top: 20px;
@@ -54,6 +68,7 @@
 .t1,.t2,.t3,.t4,.t5,.t6 {
     padding-top: 7px;
     font-size: 20px;
+    font-weight: 100;
     margin-top: 20px;
     margin-bottom: 15px;
     border-radius: 39px 40px 0px 40px;
@@ -61,33 +76,32 @@
     display: flex;
     height: 40px;
     justify-content: center;
-
 }
 
 .t1:hover {
     box-shadow: -8px -10px 13px 3px rgba(96, 135, 251, 0.24);
-    background-color:  #7987f8;
-    animation-delay: 5s;
+    background-color:  #a0a9eb;
+    font-weight: 100rem;
 }
 .t2:hover {
     box-shadow: -8px -10px 13px 3px rgba(96, 135, 251, 0.24);
-    background-color:  #7987f8;
+    background-color:  #a0a9eb;
 }
 .t3:hover {
     box-shadow: -8px -10px 13px 3px rgba(96, 135, 251, 0.24);
-    background-color:  #7987f8;
+    background-color:  #a0a9eb;
 }
 .t4:hover {
     box-shadow: -8px -10px 13px 3px rgba(96, 135, 251, 0.24);
-    background-color:  #7987f8;
+    background-color:  #a0a9eb;
 }
 .t5:hover {
     box-shadow: -8px -10px 13px 3px rgba(96, 135, 251, 0.24);
-    background-color:  #7987f8;
+    background-color:  #a0a9eb;
 }
 .t6:hover {
     box-shadow: -8px -10px 13px 3px rgba(96, 135, 251, 0.24);
-    background-color:  #7987f8;
+    background-color:  #a0a9eb;
 }
 
 .p1,.p2,.p3,.p4,.p5,.p6 {
