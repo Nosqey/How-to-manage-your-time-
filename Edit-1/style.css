@@ -44,7 +44,7 @@
 
 .title-1 {
     background-image: linear-gradient(90deg, rgba(25, 136, 247, 1) 0%, rgba(6, 93, 234, 0.83) 53%, rgba(114, 89, 217, 1) 100%);
-    color: aliceblue;
+    color: rgb(255, 249, 249);
     padding: 20px;
     border-radius: 20px;
     margin: 50px;
@@ -56,16 +56,22 @@
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    transition: 2s;
 }
 
 .title-1:hover {
-    animation-name: title-1;
-    animation-duration: 12s;
+    color: rgb(0, 0, 0);
+    animation-name: ti;
+    animation-duration: 9s;
     animation-iteration-count: infinite;
-    background-image: linear-gradient(90deg, rgba(25, 136, 247, 1) 0%, rgba(6, 93, 234, 0.83) 53%, rgba(114, 89, 217, 1) 100%);
+    animation-timing-function: linear;
+    transform: translate(0px, 30px);
 }
 
-@keyframes title-1 {
+@keyframes ti {
+    33%{background-image: linear-gradient(90deg, rgba(24, 247, 191, 1) 0%, rgba(189, 217, 89, 1) 100%);}
+    66%{background-image: linear-gradient(90deg, rgba(247, 228, 24, 1) 0%, rgba(215, 105, 45, 1) 100%);}
+    100%{background-image: linear-gradient(90deg, rgba(247, 24, 24, 1) 0%, rgba(232, 48, 183, 1) 100%);}
     
 }
 .message {
