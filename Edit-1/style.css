@@ -23,15 +23,12 @@
     padding-right: 10px;
     display: flex;
     cursor: pointer;
-    transition: 70ms;
+    transition-duration:70ms;
 }
 
 .home:hover {
+    color: rgb(217, 219, 221);
     border-bottom: 7px solid #1f893a;
-}
-
-.home::after {
-    border-bottom: 20px solid #1f893a;
 }
 
 .title {
@@ -70,7 +67,7 @@
     animation-duration: 9s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    transform: translate(0px, 30px);
+    transform: translate(0px, -30px);
 }
 
 @keyframes ti {
