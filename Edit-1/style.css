@@ -1,8 +1,11 @@
 *{
     margin: 0px;
-    padding: 0px;
+    padding: 0px;  
 }
 
+.boby {
+    background-color: #729092;
+} 
 
 .menu {
     background-color: #73A9AD;
@@ -82,8 +85,6 @@
     max-width: 800px;
     justify-content: center;
 }   
-
-
 
 .g1,.g2,.g3,.g4,.g5,.g6 {
     margin-top: 20px;
