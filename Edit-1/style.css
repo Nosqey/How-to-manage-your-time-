@@ -7,7 +7,6 @@
 .menu {
     background-color: #73A9AD;
     height: 60px;
-
     display: flex;
     align-items: flex;
     padding-right: 10px;
@@ -32,11 +31,11 @@
 
 .title {
     margin: auto;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     background-image: url('img-t1.png');
-    background-repeat: none;
-    background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-position: top;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,14 +47,27 @@
     color: aliceblue;
     padding: 20px;
     border-radius: 20px;
-    margin: 90px;
+    margin: 50px;
+    margin-top: 200px;
     margin-bottom: 1000px;
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-size: 2rem;
 }
 
+.title-1:hover {
+    animation-name: title-1;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    background-image: linear-gradient(90deg, rgba(25, 136, 247, 1) 0%, rgba(6, 93, 234, 0.83) 53%, rgba(114, 89, 217, 1) 100%);
+}
+
+@keyframes title-1 {
+    
+}
 .message {
     border: red 3px;
     margin: auto;
