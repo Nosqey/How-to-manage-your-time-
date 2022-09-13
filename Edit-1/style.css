@@ -8,8 +8,8 @@
 } 
 
 .menu {
-    background-color: #73A9AD;
-    height: 60px;
+    background-color: #FFDE00;
+    height: 37px;
     display: flex;
     align-items: flex;
     padding-right: 10px;
@@ -125,6 +125,7 @@
     margin: auto;
     max-width: 800px;
     justify-content: center;
+    transform: translate(0px,-200px);
 }   
 
 .g1,.g2,.g3,.g4,.g5,.g6 {
